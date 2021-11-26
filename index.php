@@ -59,6 +59,6 @@ function integrate($content) {
 	
 	wp_enqueue_script('hsforms'); 
 	wp_enqueue_script('sweetalert'); 
-	wp_enqueue_style('mysample');
+	wp_enqueue_style('mystyle');
 	
 	add_shortcode('hubspot_challenge', 'integrate'); 
